@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaires HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--je declare mon formmulaire avec la balise form-->
+<form>
+      <label>
+            pseudo
+            <input type="text"id="pseudo"name="pseudo"placeholder="exemple"required>
+            <!--l'id sert à utiliser les donné avec d'autres language,
+            le placehorder contient le texte qui apparait dans l'imput
+            type précise le type de donnés récuperée
+            required précise au navigateur que le champs est arenseigner obligatoirement--> 
+
+      </label>  
+      <br>
+
+      <!--mot de passe-->
+      <label for="mdp">
+             mot de passe <span title="le mots de passe peut contenir ...."></span>
+             <label>
+       <input type="password"name="mdp"placeholder="mot de passe"required>
+       
+       <br>
+
+
+       <!--email-->
+         <label for="email" >Email</label>
+         <input type="email"name="email"placeholder="Email">
+
+        <!--fichier-->
+        <label for="photo">Photos</label>
+        <imput type="file"name="photos"> 
+            
+        <br>
+        <!--cases a cocher checkbox-->
+        <!--plusieurs chartres-->
+        <label for="question1">comment allez vous ? </label>
+         <p>
+             <input type="checkbox" name="réponse01">Bien
+             <input type="checkbox" name="réponse02">Mal
+             <input type="checkbox" name="réponse03">Ne ceu prononce pas
+         <p>       
+        <br>
+
+        <!--casesà cocher radio-->
+        <!--un choix-->
+        <label for="question1">comment allez vous ? </label>
+        <p>
+
+            <input type="radio"name="reponse01"checked>Bien
+            <input type="radio"name="réponse01">/Mal   
+            <input type="radio"name="réponse01">Ne ceux prononce pas  
+            </p>
+            
+        <br>
+        
+        
+        <!--zone de texte-->
+        <label for="commentaire">Commentaires</label>
+        
+        </label >
+
+
+</form>    
+</body>
+</html>

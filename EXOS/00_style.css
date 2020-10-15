@@ -1,0 +1,26 @@
+selecteur{
+     /*attention !!! on n'utilise pas les mémes codes en commentaires en css qu'en HTML*/
+    propriétes:valeur ;/*le point virgule est indispensable pour ne pas avoir d'erreurs, prenez l'habitude de le mettre tout le temps*/
+}
+
+
+.class{/*on peut mettre plusieur class pour une seule balise dans le HTML et on peut utilisée une méme class pour plusieur balise */ 
+    propriétes:valeur ;
+    propriétes:valeur ;
+    propriétes:valeur ;
+}
+
+
+#id{/*on n' utilise les id de maniere unique, on ne donne pas le meme nom d'id à plusieurs balise,les id son utilisée aussi pour faire des ancres */
+    propriétes:valeur ;
+
+}
+
+.class1, .class2, .class3{/*on sépare les selecteurs par des virgule pour en appliques le meme style */
+    propriétes:valeur ; 
+
+}
+.class1, .class2, .class3{/*ici on parle de la class3 qui est dans la class1 */
+    propriétes:valeur ;
+     
+}
