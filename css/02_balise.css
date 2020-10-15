@@ -7,23 +7,23 @@ body{
 header{
     background-color: chartreuse;
     color: chocolate;/*couleur du texte*/
-    height: 120px;/*hauteur fixée à 120 pixels */
+    height: 180px;/*hauteur fixée à 120 pixels */
 }
 nav{
     background-color: cornflowerblue;
-    height: 70px;
+    height: 160px;
 }
 section{
     background-color: crimson;
-    height: 600px;
+    height: 160px;
 }
 article{
     background-color: darkgoldenrod;
-    height: 67px;
+    height: 160px;
 }
 footer{
     background-color: darkgreen;
-    height: 60px;
+    height: 160px;
 }
 
 nav, footer{/*Je sépare les différente balises à selectionner pas de virgules */
