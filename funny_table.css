@@ -1,0 +1,22 @@
+body{
+    margin: auto;
+}
+table{
+    border:1px gray;
+    border-collapse: collapse;
+}
+tbody{
+    border:1px gray;
+}
+.jaune{
+    background-color: gold;
+}
+.gris{
+    background-color: gray;
+}
+.noir{
+    background-color: black;
+}
+.bleu{
+    background-color: blue;
+}

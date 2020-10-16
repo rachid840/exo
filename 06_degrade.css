@@ -1,0 +1,18 @@
+.contenu{
+    height: 45em; /*la hauteur*/
+    width: 45em; /*la largeur*/
+    margin:auto; /*centre automatiquement la balise */
+    border-radius: 50%;/*arrondie les angles*/
+    background: linear-gradient(to left, red,blue);
+    /* degrade qui demarer avec la premiere couleur en haut et la derniere en bas*/
+    /*to left la premiere couleur est a droite et la derniere a gauche */
+    /*lien vers un génerateur de dégrades : cssgradient. io dans le slack */
+}
+.bateau{
+    height: 70em;
+    width: 70em;
+    margin: auto;
+    border-radius: 60%;
+    background: linear-gradient(to left,#ade209,#f5025d,#02b2f5);
+
+}
