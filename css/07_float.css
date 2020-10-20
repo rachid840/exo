@@ -1,0 +1,48 @@
+body{
+    margin:0 auto;
+    background-color: blueviolet;
+}
+
+div{
+    width: 90%;
+    margin:0 auto;
+    background-color: cornflowerblue;
+    /*
+    margin: 0 auto 0 auto; ->haut droite bas gauche
+    margin: 0;
+    margin: 0 auto auto 1;(gauche ->auto)
+    */
+    background-color: crimson;
+}
+
+.boite{
+    height: 11vh;
+    width: 18vh;
+    padding: 5vh;
+
+    /*EM : est relatif a l'élement parent
+    REM : relatif à la balise html
+    %: relatif a l'élement parents (%)
+    VW : relatif à la largeur de l'ecran
+    VH : relatif à la hauteur de l'écran
+    */
+    background: url(../image/chopper.jpg);
+    background-repeat: no-repeat;
+    border: 5px orchid;
+    margin: 2vh;
+    float: left;/*effet flottant, place les élement cote a cote alors que le flux standar des élements les placent les uns en-dessous des autres*/
+    transition: margin 0.5s;
+}
+
+.boite:hover{/*la pseudo-class : hover modifie l'affichage au survol de la souris */
+    margin-top: 10vh;
+}
+.clear{
+    clear: both;/*supprime l'effet flottant à droite et à gauche */
+}
+p{
+    background-color: mediumaquamarine;
+}
+P span{
+    background-color: rgb(129, 129, 195);
+}

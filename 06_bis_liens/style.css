@@ -1,0 +1,12 @@
+.code{
+color:#4702f5 ;
+background-color: #000000;
+display: inline-block;
+font-style: italic;
+
+}
+a:hover{
+    color:#f90202 ;
+    width: 50px;
+    border: 10px#000000;
+}
