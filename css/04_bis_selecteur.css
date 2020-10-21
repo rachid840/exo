@@ -1,0 +1,74 @@
+*{
+    font-family: sans-serif;
+}
+
+
+nav{
+    background: #000;/*definis la couleur,on peut y mettre plusieur valeurs */
+    color: #fff;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0;/*position a partir du haut de l' écran */
+    left: 0;/*position a partir du bord gauche de l' ecran */
+    margin: 0 0 20px;/*top right bottom left=right*/
+}
+nav a{
+    float: left;
+    text-decoration: none;/*pas de soulignage dans le cas des liens*/
+    color: #fff;/* récupere dans nav */
+    height: 2.8em;/*nous n'avons pas donné de hauteur à la nav alors celle-ci va prendre celle de ses enfants*/
+    line-height: 2.7em;/*interligne*/
+    padding:0em 2em ;
+    font-size: 1.2em;
+    transition: 2s;
+}
+nav a{
+    background-color: #fda500;
+    color: black;
+}
+.container{
+    width: 70%;
+    margin: 4% auto 2% auto; /*4% auto 2%*/
+    background-color: #f1fcf1;
+    padding: 2em;
+}
+.container1{
+    width: 70%;
+    margin: 2% auto;
+    background: #f0e9fd;
+    padding: 2%;
+}
+.container2, .container3{
+    width: 44.5%;
+    background-color: #f1fcde;
+    padding: 2%;
+    float: left;
+
+}
+.container2{
+    margin-right: 2em;
+}
+.container3{
+    margin-left: 1.5%;
+}
+.container4{
+    margin-top: 2em;
+}
+.clear{
+    clear: both;
+}
+.container3 ol li:nth-child(11){
+    border: 1px solid crimson;
+}
+.container3 ol li:first-child{
+    font-weight: 700;
+}
+.container3 ol li:nth-of-type(7){
+    opacity: 0.5;
+}
+.container3 ol li:last-child{
+    color: darkred;
+}
+

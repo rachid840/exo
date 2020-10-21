@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision sélecteur css</title>
+    <link rel="stylesheet" href="css/04_bis_selecteur.css">
+</head>
+<body>
+  <nav>
+      <a href="#">Home</a>
+      <a href="#">Edito</a> 
+      <a href="#">Panier</a> 
+      <a href="#">FAQ</a>
+      <a href="#">Nous contactes</a>
+  </nav>
+  
+  
+        <section class="container">
+            <h1>Aide memoire des sélecteurs CSS déja vus</h1>
+            <ul>
+                <li>
+                    <mark>*</mark>selectionne tous les élements de la page HTML .
+                </li>
+                <li>
+                    <mark>.ma-jolie-nav </mark>sélectionne tous les element ayant le de class "ma-jolie-nav".    
+                </li> 
+                <li>
+                    <mark># mon-unique-id</mark>sélectionne l'élement ayant le nom d'id "mon-unique-id".
+                </li>
+                <li>
+                    <mark>div, article, aside</mark>sélectionne l'élement toutes les balises &lt;div>,&lt;article>et &lt;aside>.
+
+                </li>
+                <li>
+                    <mark>nav a </mark>sélectionne tous les liens &lt;a>inclus /imbriqués dans la balise &lt;nav>
+                </li>
+                <li>
+                    nav a<mark>: hover </mark>sélectionne tous les liens de la nav et active une animation lors du survol de la souris.
+                </li>
+           </ul>
+
+        </section>
+        <!--container1>section*2>h2+h3+ol>li*16-->
+        <div class="container1">
+            <section class="container2"></section>
+                <h2>Proprietes CSS utilisées dans cette page</h2>
+                <h3>Décrivez leur usage et leurs valeurs possibles</h3>
+                <ol>
+                    <li>background : La propriété CSS background est une propriété raccourcie qui permet de définir les différentes valeurs des propriétés liées à la gestion des arrière-plans
+                        d'un élément (couleur, image, origine, taille, répétition, etc.). 
+                   </li>
+                    <li>color : La propriété color définit la couleur de premier plan d'un élément texte et de ses éventuelles décorations. Elle définit également la valeur de currentcolor
+                        qui peut être utilisée pour d'autres propriétés  </li>
+                    <li>float : La propriété CSS float permet de spécifier qu'un élément flotte à gauche, à droite ou pas du tout au sein de son élément conteneur. Si l'élément est flottant,
+                         les autres éléments de type en ligne ( inline ) entoureront alors ce dernier. 
+                    </li>
+                    <li>font-family : La propriété font-family permet de définir une liste, ordonnée par priorité, de polices à utiliser pour mettre en forme le texte de l'élément ciblé. </li>
+                    <li>font-size : La propriété font-size définit la taille de fonte utilisée pour le texte. La modification de cette taille peut entraîner la modification de la taille 
+                        d'autres éléments car elle est utilisée pour calculer les valeurs des longueurs relatives (type <length>) (par exemple exprimées avec les unités em ou ex). 
+                    </li>
+                    <li>height :La propriété height définit la hauteur de la boîte de contenu d'un élément. La boîte de contenu est à l'intérieur de la boîte de remplissage (padding) qui
+                         est à l'intérieur de la boîte de bordure qui est elle-même à l'intérieur de la boîte de marge de l'élément. Si la propriété box-sizing vaut border-box, cette 
+                         propriété détermine la hauteur de la boîte de marge. 
+                    </li>
+                    <li>left : La propriété left permet de définir une partie de la position des éléments positionnés. Elle n'a aucun effet pour les éléments non-positionnés. </li>
+                    <li>line-height : La propriété line - height définit la quantité d'espace au-dessus et en dessous des éléments en ligne. Autrement dit, les éléments définis pour
+                         afficher: inline ou display: inline-block. Cette propriété est le plus souvent utilisée pour définir le début des lignes de texte. p { ligne - hauteur : 1,5; }
+                    </li>
+                    <li>margin : La propriété margin définit la taille des marges sur les quatre côtés de l'élément. C'est une propriété raccourcie qui permet de manipuler les autres
+                         propriétés de marges : margin-top , margin-right , margin-bottom et margin-left . Il est possible d'utiliser des valeurs négatives pour chacun des côtés. 
+                         propriétés de marges : margin-top , margin-right , margin-bottom et margin-left . Il est possible d'utiliser des valeurs négatives pour chacun des côtés.(change la taille des marge en exterieur) 
+                    </li>
+                    <li>padding : La propriété padding est une propriété raccourcie qui permet de définir les différents écarts de remplissage sur les quatre côtés d'un élément 
+                        (cf. les boîtes CSS). Elle synthétise padding-top , padding-right , padding-bottom , padding-left . (change la taille des marge en interieur)
+                    </li>
+                    <li>position : La propriété position définit la façon dont un élément est positionné dans un document. Les propriétés top , right , bottom et left déterminent
+                         l'emplacement final de l'élément positionné. 
+                    </li>
+                    <li>text-align : La propriété text - align spécifie l ' alignement horizontal du texte dans un élément. Valeur par défaut: à gauche si la direction est ltr et à droite
+                         si la direction est rtl. 
+                    </li>
+                    <li>text-decoration : La propriété text-decoration est utilisée pour « décorer » le texte en ajoutant une ligne pouvant être positionnée sous, sur ou à travers le texte. </li>
+                    <li>top : La propriété top définit une partie de la position des éléments positionnés, elle n'a aucun effet pour les éléments non-positionnés. </li>
+                    <li>transition : La propriété transition se définit comme une ou plusieurs propriétés de transitions, séparées par des virgules.
+                        Chacune des propriétés de transition décrit la transition qui devrait être appliquée à une propriété donnée (ou pour les valeurs spéciales all et none ).
+                        (les propriétes transition) 
+                    </li>
+                    <li>width : La propriété width permet de définir la largeur de la boîte du contenu d'un élément.
+                        Par défaut, sa valeur est auto , c'est à dire la largeur automatiquement calculée de son contenu. 
+                    </li>
+                </ol>
+            </section class="container3">
+            
+                <h2>Proprietes CSS à rechercher</h2>
+                <h3>
+                    Recherchez les propriétes ci-dessous, faites des tests sur cette page en utilisant la console de débuggage pour tester les valeurs qu'elle peuvent prendre.
+                    (F12 dans le navigateur)
+                </h3>
+                 <ol> 
+                     <li>font-weight : La propriété CSS font-weight permet de définir la graisse utilisée pour le texte.
+                         Les niveaux de graisse disponibles dépendent de la police (cf. font-family ).
+                         Certaines fontes n'existent qu'avec les niveaux de graisses normal et bold 
+                    </li>
+                     <li>letter-spacing : La propriété letter-spacing définit l'interlettre utilisée pour les caractères qui composent le texte.( ou des valeur comme em,px) </li>
+                     <li>word-spacing : La propriété CSS word-spacing permet d'augmenter ou diminuer l'espacement par défaut qui est entre chaque mot.( ou des valeur comme em,px)
+                         Exemple de syntaxe CSS word-spacing : word-spacing : 15px; word-spacing : -0.1em; ... normal : espace assigné par défaut par navigateur,
+                         valeur par défaut. 
+                    </li>
+                     <li>text-shadow : La propriété text-shadow ajoute des ombres au texte. Elle accepte une liste d'ombres à appliquer au texte et aux décorations de l'élément.
+                         Chaque ombre est décrite par une certaine combinaison de décalages X et Y de l'élément, de rayon de flou et de couleur. 
+                    </li>
+                     <li>background-image : La propriété d'Arrière-plan CSS background-image permet de mettre des ou une image
+                         d'arrière-plan ou un dégradé de couleur linéaire en arrière-plan ou un dégradé de couleur radial en arrière-plan. Par défaut, l'image d'arrière-plan
+                         ou le dégradé de couleur vont s'étendre sous les bordures. 
+                    </li>
+                     <li>background-size : La background-size propriété spécifie la taille des images d'arrière-plan. </li>(on peut utilisée cover,contain ou des valeurs.)
+                     <li>opacity : La propriété opacity définit la transparence d'un élément. Autrement dit, elle permet de définir le degré de visibilité de l'arrière-plan sur lequel est placé l'élément. (de 0 invisible à 1 visible en passant 0.5 àmoitier visible.)
+
+                     </li>
+                     <li>border-style : La propriété de bordure CSS border est un raccourci qui permet de spécifier le style de la bordure Css (pointillé, solide,...),
+                         l'épaisseur de la bordure Css et la couleur de la bordure Css des quatre bordures Css d'un élément (X)HTML.
+                         Exemple de syntaxe CSS border : ... border-style : valeur du style de la bordure Css. 
+                    </li>
+                     <li>box-shadow : La propriété CSS box-shadow ajoute des ombres à la boîte d'un élément via une liste d'ombres séparées par des virgules.
+                         Une boîte d'ombre est définie avec des décalages horizontal et vertical par rapport à l'élément,
+                         avec des rayons de flou et d'étalement et avec une couleur. (x/y blur-radius /spead-radius)
+                    </li>
+                     <li>list-style-image : La propriété list - style - image est utilisée pour spécifier une image qui doit être utilisée comme marqueur (puce) pour les éléments de liste ou les éléments avec display:
+                         list -item. Lorsque l' image est disponible, elle remplacera le jeu de marqueurs à l'aide de la propriété list - style -type. 
+                    </li>
+                     <li>border :La propriété CSS border est une propriété raccourcie qui permet de définir les propriétés liées à la bordure.
+                         border peut être utilisée pour définir les valeurs de border-width , border-style et border-color . (largeur /type de trait/couleur) 
+                    </li>
+                     <li>border-radius : La propriété border-radius permet de définir des coins arrondis pour la bordure d'un élément.(ordre: haut a gauche /haut a droite/bas droite/bas gauche)
+                         La courbure de chaque coin est définie avec un ou deux rayons de courbures qui permettent de définir un arc de cercle ou un arc d'ellipse.
+                    </li>
+                     <li>border-width : La propriété CSS border est une propriété raccourcie qui permet de définir les propriétés liées à la bordure. border peut être utilisée pour définir 
+                         les valeurs de border-width, border-style et border-color. 
+                    </li>
+                     <li>font-variant : La propriété de Capitales CSS font-variant permet de spécifier que le texte soit en petites capitales dans un élément (X)HTML. ... 
+                         La propriété de feuille de style font-variant CSS peut prendre la valeur de : normal : aucun changement dans le mode d'affichage du texte, valeur par défaut. 
+                     </li>
+                     <li>background-color :La propriété background - color définit la couleur d'arrière - plan d'un élément. L' arrière - plan d'un élément est la taille totale de l'élément,
+                         y compris le remplissage et la bordure (mais pas la marge). Conseil: utilisez une couleur d'arrière - plan et une couleur de texte qui facilitent la lecture du texte.
+
+                    </li>
+                     <li>!important : A mettre à la fin d'une ligne CSS pour forcer le navigateur à appliques le style, il ne sera pas surchargés et il faut évites de l'utiliser </li>
+                 </ol>
+            </section>
+            <div class="clear"></div>
+        </div><!--fin div container1-->
+        <section class="container container4">
+            <h2>Pour aller plus loin en CSS, quelques piste...</h2>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN le site officiel</a></li>
+                <li><a href="https://tympanus.net/codrops/">Codrops, références, tutos...</a></li>
+                <li><a href="https://flukeout.github.io/">jeu avec les sélecteur CSS</a></li>
+                <li><a href="http://flexboxfroggy.com/">Autre jeu avec les "flebox"</a></li>
+                <li><a href="http://viewportsizes.com/">Différente taille d'écrans</a></li>
+                <li><a href="http://fr.learnlayout.com/">Displays</a></li>
+                <li><a href="https://purecss.io">Encore des tutos</a></li>
+                <li><a href="https://www.w3c.org/Style/CSS/learning">W3C partie CSS</a></li>
+            </ul>
+
+        </section>
+
+</body>
+</html>
