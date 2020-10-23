@@ -1,0 +1,58 @@
+#conteneur{
+    background: #336699; 
+    width: 800px;
+    height: 530px;
+}
+header{
+    background: #FF5555;
+     width: 800px; 
+     height: 70px;
+    text-align: center;
+    line-height: 500%;
+}
+.gauche{
+    background: #5585FF; 
+    width: 150px; 
+    height: 530px; 
+    float: left;
+    text-align: center;
+    line-height: 3000%;
+}
+.droite{
+    background: #5585FF; 
+    width: 95px; 
+    height:430px; 
+    float: right;
+    text-align: center;
+    line-height: 3000%;
+}
+.premier{
+    background: #55D87C;
+    width: 98px;
+    height: 430px; 
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 3000%;
+}
+.droite{
+    background: #5585FF; 
+    width: 150px; 
+    height: 530px; 
+    float: right;
+    text-align: center;
+}
+.bas{
+    background: #DCFF7B; 
+    width: 499px; 
+    height: 99px; 
+    line-height: 80px;
+    bottom: 98px;
+    left: 150px;
+    position: relative;
+    text-align: center;
+    line-height: 500%;;
+}
+.clear{
+    clear: both;
+}

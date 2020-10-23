@@ -1,0 +1,144 @@
+body{
+    font-family: 'Krona One', sans-serif;
+    font-size: 25px;
+    margin: 20%;
+}
+header{
+    background-color: teal;
+    height: 200px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+nav{
+    height: 30px;
+    background-color: rgb(255, 194, 194);
+}
+section{
+    background: rgb(149,255,238);
+    background: radial-gradient(circle, rgba(149,255,238,1) 46%, rgba(255,255,255,1) 80%); 
+    height: 350px;
+    margin:0px;
+    padding: 15px;
+}  
+footer{
+    background-color: teal ; 
+    height: 200px;
+    color: rgb(255, 235, 153);
+    text-align: center;
+}
+.clear{
+    clear:both;
+}
+.premiere{
+    width: 50%;
+    height: 50%;
+    float: left;
+    border: 2px rgb(255, 255, 255);
+    text-align: center;
+    line-height: 100px;
+    background: rgb(149,255,238);
+    background: radial-gradient(circle, rgba(149,255,238,1) 46%, rgba(255,255,255,1) 80%);
+}
+.deux{
+    width: 50%;
+    height: 50%;
+    float: left; 
+    text-align: center;
+    background: rgb(149,255,238);
+    background: radial-gradient(circle, rgba(149,255,238,1) 46%, rgba(255,255,255,1) 80%);
+    
+}
+.trois{
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: rgb(149,255,238);
+    background: radial-gradient(circle, rgba(149,255,238,1) 46%, rgba(255,255,255,1) 80%);
+}
+.quatre{
+    width: 50%;
+    height: 50%;
+    float: left;
+    background: rgb(149,255,238);
+    background: radial-gradient(circle, rgba(149,255,238,1) 46%, rgba(255,255,255,1) 80%);
+}
+.a, .b{
+    width: 48%;
+    height: 85px;
+    float: left;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(0,117,255,1) 100%);
+    text-align: center;
+    border: 1px solid white;
+    text-align: center;
+}
+.c, .d{
+    width: 48%;
+    height: 85px;
+    float: left;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(0,117,255,1) 100%);
+    text-align: center;
+    border: 1px solid white;
+    text-align: center;
+}
+.e, .g{
+    width: 48%;
+    height: 85px;
+    float: left;
+    background: rgb(160,255,13);
+    background: radial-gradient(circle, rgba(160,255,13,1) 0%, rgba(255,255,255,1) 100%);
+    text-align: center; 
+    border: 1px solid white;
+    text-align: center;
+}
+.f, .h{
+    width: 48%;
+    height: 85px;
+    float: left;
+    background: rgb(160,255,13);
+    background: radial-gradient(circle, rgba(160,255,13,1) 0%, rgba(255,255,255,1) 100%);
+    text-align: center;
+    border: 2px solid white;
+    text-align: center;
+}
+.i, .k{
+    width: 48%;
+    height: 85px;
+    float: left;
+    background: rgb(255,151,103);
+    background: radial-gradient(circle, rgba(255,151,103,1) 46%, rgba(255,255,255,1) 100%); 
+    text-align: center;
+    border: 2px solid white;
+    text-align: center;
+}
+.j, .l{
+    width: 48%;
+    height: 85px;
+    float: left;
+    background: rgb(255,151,103);
+    background: radial-gradient(circle, rgba(255,151,103,1) 46%, rgba(255,255,255,1) 100%); 
+    text-align: center;
+    border: 2px solid white;
+    text-align: center;
+}
+.m, .o{
+    width: 48%;
+    height: 85px;
+    float: left;
+    background: rgb(103,150,255);
+    background: radial-gradient(circle, rgba(103,150,255,1) 46%, rgba(255,255,255,1) 100%); 
+    text-align: center;
+    border: 2px solid white;
+    text-align: center;
+}
+.n, .p{
+    width: 48%;
+    height: 85px;
+    float: left;
+    background: rgb(103,150,255);
+    background: radial-gradient(circle, rgba(103,150,255,1) 46%, rgba(255,255,255,1) 100%); 
+    text-align: center;
+    border: 2px solid white;
+    text-align: center;
+}

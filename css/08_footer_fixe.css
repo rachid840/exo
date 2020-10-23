@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+#conteneur{
+    width: 120%;
+    margin: 0 auto;
+    background-color:white;
+    
+}
+
+header{
+    background-color: violet;
+    height: 100px;
+    text-align: left;
+
+}
+p{
+    height: 1200px;
+}
+footer{
+    background-color: violet;
+    height: 100px;
+    width: 3000px;
+    text-align: left ;
+    position: fixed;
+    bottom: 0;
+}
+
